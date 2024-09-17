@@ -28,3 +28,23 @@ comentario de multi linea
 */
 ```
 E ste tipo de comentario es muy usado para documentar el código, generalmente usado para la explicación
+
+### Tipos de mensajes por consola
+#### 1. Notificadores
+Mostrar un mensaje por consola.
+
+```js
+//mensaje de tipo plano
+console.log("hola mundo")
+//mensaje de tipo información
+console.info("importante")
+//mensaje de tipo advertencia
+console.warning("no hagas eso")
+//mensaje de tipo error
+console.error("cuiudado")
+```
+#### 2. Gestion de tiempo
+#### 3. Tablas
+>[!TIP]
+CLI interfaz por linea de comandos.\
+GUI interfaz de usuariio gráfico.
