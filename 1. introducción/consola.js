@@ -1,4 +1,5 @@
 console.time("Tiempo")
+console.timeEnd("Tiempo")
 //para mostrar texto plano sin formato
 console.log("texto plano")
 //evalucion de valores y muestra el resultado
@@ -11,6 +12,7 @@ console.error("error")
 console.warn("esta cerca")
 
 //mensaje por consola de gestion de tiempo
+edad = 20
 if (edad >=10){
     console.log("eres mayor de edad")
 }else {
@@ -21,4 +23,12 @@ let i=0
 for (i;i<=100;i++){
     console.log(i)
 }
-console.timeEnd("Tiempo")
+//mensaje de tipo tabla
+console.table("eres una tabla y edwin es un clavo y orlando es virgen")
+lenguajes = [
+    {nombre_lenguaje:"javascript", extension:".js"},
+    {nombre_lenguaje:"python", extension:".py"},
+    {nombre_lenguaje:"php", extension:".php"}
+]
+console.log(lenguajes)
+console.table(lenguajes)
