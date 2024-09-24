@@ -12,12 +12,14 @@ console.error("error")
 console.warn("esta cerca")
 
 //mensaje por consola de gestion de tiempo
+console.time("Tiempo")
 edad = 20
 if (edad >=10){
     console.log("eres mayor de edad")
 }else {
     console.log("eres pulpin")
 }
+console.timeEnd("Tiempo")
 //ejemplo
 let i=0
 for (i;i<=100;i++){

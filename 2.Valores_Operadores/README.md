@@ -1,5 +1,15 @@
+**Temario**
+- [valores](#valores)
+  - [datos primitivos](#datos-primitivos)
+    - [-Numeros(Numbers)](#-numerosnumbers)
+- [datos primitivos](#datos-primitivos-1)
+  - [numericos (Number)](#numericos-number)
+    - [entero](#entero)
+    - [decimal](#decimal)
+    - [notacion científica](#notacion-científica)
+    - [numeros especiales](#numeros-especiales)
 ## valores
-Cuando nosotros programamos haccemos uso de la `memria de trabajo` también conocido como la memoria RAM. Para trabajar de manera ordenada con los bits que se encuentran en nuestro mar de bits, javascript orndena los bits en pequeñas partes o piezas de información a esto se le conoce como `valores`.
+Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también conocido como la memoria RAM. Para trabajar de manera ordenada con los bits que se encuentran en nuestro mar de bits, javascript orndena los bits en pequeñas partes o piezas de información a esto se le conoce como `valores`.
  Cada valor tiene una funcionalidad distinta puede ser un número un texto o una funcion.
  Cuando hablamos de tipos de datos en javscript nos referimos a su presentacion binaria y al tipo de valor que usamos.
  ### datos primitivos
@@ -17,6 +27,17 @@ Cuando nosotros programamos haccemos uso de la `memria de trabajo` también cono
  0.
  .0
  ```
+ ```js
+ //dato numero de tipo entero
+ //entero positivo
+ 23
+ //entero negativo
+ -23
+ //decimal positivo
+ .0
+ //decimal negativo
+ -3,6
+ ```
  > [!TIP]
  > Cuando javascript hace trabajo de memoria (cuando crea un patron de bit para almacenar) todo numero.
  - Numero de notación cientifica.
@@ -30,3 +51,21 @@ Cuando nosotros programamos haccemos uso de la `memria de trabajo` también cono
   ---
   > [!TIP]
   > Cuando javascript hace trabajo de memoria (cuando crea un patron de bit para almacenar) todos numero son almacena como decimal positivo.
+  - Tipos de datos (conocido valores en jvascript)
+  - Operadores.
+  ## datos primitivos
+  ### numericos (Number)
+  #### entero
+  #### decimal
+  #### notacion científica
+  #### numeros especiales
+   EN Javascript exixte tres valores de tipo número que se considera un dato primitivo númerico de tipo especial
+   ```js
+   //positivo infinito
+   Infinity
+   //negativo infinito
+   - Infinity
+   //sin nombre
+   -NaN
+   //Cuando el resultado de una operacion es matematicamente imposible
+   ```
