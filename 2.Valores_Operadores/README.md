@@ -8,12 +8,13 @@
     - [decimal](#decimal)
     - [notacion científica](#notacion-científica)
     - [numeros especiales](#numeros-especiales)
+    - [Aritmetica (operadores aritmeticos)](#aritmetica-operadores-aritmeticos)
 ## valores
 Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también conocido como la memoria RAM. Para trabajar de manera ordenada con los bits que se encuentran en nuestro mar de bits, javascript orndena los bits en pequeñas partes o piezas de información a esto se le conoce como `valores`.
  Cada valor tiene una funcionalidad distinta puede ser un número un texto o una funcion.
  Cuando hablamos de tipos de datos en javscript nos referimos a su presentacion binaria y al tipo de valor que usamos.
  ### datos primitivos
- Son aquellos datos que ya existen no puedn sser creados, actualizados ni eliminados solo pueden ser llamdos para el uso que deceamos darle.
+ Son aquellos datos que ya existen no puedn ser creados, actualizados ni eliminados solo pueden ser llamados para el uso que deceamos darle.
  Los datos primitivos en javascript son
  #### -Numeros(Numbers)
  Los valores de tipo numero, como es de esperar son numeros y en javascript se escribe o se hacer el llamado de este valor de la siguiente manera.
@@ -59,7 +60,7 @@ Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también con
   #### decimal
   #### notacion científica
   #### numeros especiales
-   EN Javascript exixte tres valores de tipo número que se considera un dato primitivo númerico de tipo especial
+   En Javascript existe tres valores de tipo número que se considera un dato primitivo númerico de tipo especial
    ```js
    //positivo infinito
    Infinity
@@ -69,3 +70,13 @@ Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también con
    -NaN
    //Cuando el resultado de una operacion es matematicamente imposible
    ```
+   #### Aritmetica (operadores aritmeticos)
+La principal operación quese puede hacer con numeros es la aritmetica.
+Para esto tenemos los operadores aritmeticos como:
+- Suma (operaion de suma `+`)
+- Resta (operacion de resta `-`)
+- multiplicacion (operador multiplicación `*`)
+- Division (operador de division `/`)
+- potencia (operador de potencia en javascript `**`)
+- Modulo (`%`)
+**Podemos agrupar operaciones con parentesis() las operaciones que este entre**
