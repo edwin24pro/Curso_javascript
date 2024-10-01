@@ -12,6 +12,7 @@
     - [Cadenas](#cadenas)
     - [Concanetacion](#concanetacion)
     - [Plantillas literales](#plantillas-literales)
+    - [Valores Boleanos](#valores-boleanos)
 ## valores
 Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también conocido como la memoria RAM. Para trabajar de manera ordenada con los bits que se encuentran en nuestro mar de bits, javascript orndena los bits en pequeñas partes o piezas de información a esto se le conoce como `valores`.
  Cada valor tiene una funcionalidad distinta puede ser un número un texto o una funcion.
@@ -128,7 +129,7 @@ El unico opereador aritmético que puede ser usado por cadenas en el operador de
 "hola"+" "+"mundo"
 ```
 #### Plantillas literales
-Las plantillas literales mencionando anteriormente con el nombre de ascentos graves son usadas para mostrar texto leteral, también nos permite ejecutar codigo javascript dentro de una plantilla literal el codigo o resultado de este codigo sera transformado en un dato de tipo texto y se incluira en la posicion en que se encuentre.
+Las plantillas literales mencionando anteriormente con el nombre de ascentos graves son usadas para mostrar texto literal, también nos permite ejecutar codigo javascript dentro de una plantilla literal el codigo o resultado de este codigo sera transformado en un dato de tipo texto y se incluira en la posicion en que se encuentre.
 Par hacer uso de esta funcionalidad debemos usar, la siguiente expresion.
 ```js
 //Usando plantillas literales
@@ -137,3 +138,26 @@ Par hacer uso de esta funcionalidad debemos usar, la siguiente expresion.
 ```
 > [!TIP]
 > Se dice literal porque con el formato que codificamos sera mostrado de esa misma forma en la consola.
+> #### Operadores unarios
+> No todo los operadores son simbolos, algúnos se escriben como palabras.
+> Un ejemplo es el operador `typeof`, es el operador que produce un valor de cadena que indica el tipo del valor que le proporcionamos.
+>`operadores binarios` se les conoce porque opera sobre dos valores `2*5`
+`operador unario` por que solo trabja con un valor.
+```js
+//Para ver su funcionalidad o el valor que genera siempre debemos mostrarlo en un console
+console.log(typeof 5)
+```
+#### Valores Boleanos
+Este tipo de dato primitivo es util cuando tenemos un valor que distinga solo entre dos posibilidades, como `si` y `no`
+
+Para este proposito, JavaScript tiene un tipo de dato `Booleano`,  que tiene solo dos valores, `true`
+1. **que formas de producir valores booleanos tenemos?**
+Los operadores de comparación son los siguientes:
+- Mayor que (<),
+- Menor que (>),
+- Mayor o igual que (>=),
+- Menor o igual que (<=),
+- Igual a (==),
+- Extrictamente igual (===)
+- No es igual a (!=)
+  2. **Operadores lógicos**
