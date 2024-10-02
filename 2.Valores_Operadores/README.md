@@ -13,6 +13,7 @@
     - [Concanetacion](#concanetacion)
     - [Plantillas literales](#plantillas-literales)
     - [Valores Boleanos](#valores-boleanos)
+    - [Operador ternario](#operador-ternario)
 ## valores
 Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también conocido como la memoria RAM. Para trabajar de manera ordenada con los bits que se encuentran en nuestro mar de bits, javascript orndena los bits en pequeñas partes o piezas de información a esto se le conoce como `valores`.
  Cada valor tiene una funcionalidad distinta puede ser un número un texto o una funcion.
@@ -165,5 +166,29 @@ Los operadores de comparación son los siguientes:
     JavaScript soporta tres operadores logicos
     - and (y) representacion en javascript `&&`,
     - or (o) representacion en javascript `||`
-    - not (no) representación en js `!`,
+    - not (no) representación en js `!`.
   **Observacion** este es un operador unario que se su funcion es invertir el valor
+> [!TIP]
+> **AND &&** - Si tenemos dos valores verdaderos devolvera el segundo valor verdadero, si tenemos un valor falso y unno verdadero devolvera el valor falso.
+
+> [!TIP]
+> **OR ||** - Si tenemos dos valores verdaderos devolvera el primer valor verdadero, si tenemos un valor verdadero y uno falso devolvera  el valor verdadero.
+
+3. **Usando el operador relacional**
+Este operador compara su valor y retorna un boleano su resultado. Lo que evalua este operador es si un propiedad especificca se encuentra en un objeto.
+Evalua que si el primer valor que se encuentra a su izquierda existe o forma parte del segundo valor que se encuentra a su derecha.
+ejm:
+
+```js
+// Solo funciona en objetos o listas
+'a' in ['a','b','c'] //resultado--> true
+//averiguar por que sale false en este caso
+console.log('hola' in ['hola', 'hola'])
+//El resultado: es falso porque el operador in en JavaScript se utiliza para verificar si una propiedad específica existe en un objeto, no para buscar elementos dentro de un array. En este caso, ['hola', 'hola'] es un array, y al usar 'hola' in ['hola', 'hola'], JavaScript busca una propiedad llamada 'hola' en el array, pero como los arrays tienen índices numéricos (0, 1, etc.), no encontrará ninguna propiedad con ese nombre.
+```
+#### Operador ternario
+Este operador trabaja con tres valores.
+El primer valor es el que determinara si se muestra el resto de valores. eso quiere decir si el primer valor es verdadero mostrara el segundo valor mientras si es falso mostrara el tercer valor.
+```js
+primerValor ? segundoValor : TercerValor
+```
