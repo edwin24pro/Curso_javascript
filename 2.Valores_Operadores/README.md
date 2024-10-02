@@ -52,7 +52,7 @@ Cuando nosotros programamos haccemos uso de la `memoria de trabajo` también con
   2.99e8
   ```
   > [!WARNING]
-  > Cuando javascript realiza operacion con numeros enteros el resultado siempre sera exacta, cuando realiza operacion con numero decimales el resultado perdera presicionporque solo tiene 64 bit para almacenar el numero esto suele ocurrir con resultados cuyos decimales sean infinitivos como el caso el numero PI.\
+  > Cuando javascript realiza operacion con numeros enteros el resultado siempre sera exacta, cuando realiza operacion con numero decimales el resultado perdera presicion porque solo tiene 64 bit para almacenar el numero esto suele ocurrir con resultados cuyos decimales sean infinitivos como el caso el numero PI.\
   > **Es nuestra responsibilidad como programadores hacer el uso de los deccimal con aproximaciones para evitar errores**
   ---
   > [!TIP]
@@ -85,6 +85,7 @@ Para esto tenemos los operadores aritmeticos como:
 - potencia (operador de potencia en javascript `**`)
 - Modulo (`%`)
 - Incremento (`++`).
+- Reducción (`--`)
 **Podemos agrupar operaciones con parentesis() las operaciones que este entre**
 #### Cadenas
 El siguiente tipo de dato primitivo es la `cadena` - `string`.
