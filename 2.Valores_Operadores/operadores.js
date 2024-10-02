@@ -26,5 +26,21 @@ console.log((2+(4+5)+5)/(2))
 console.log(((2/1)+(4/2))/((4/2)/(6/3)))
 console.log(3+((4+((4+2)/(4+6)))/(3+(4/2))))
 console.log(1+2+(3/4)+(3/(4-2)/(2/(4+2))))
-// operador unario typeof
-console.log(typeof 5)
+//Incremento
+num = 2
+console.log(num++)
+console.log(++num)
+console.log(num)
+//ejm
+//Comparacion de tiempo de ejecucion
+console.time('calcular')
+num = 3
+console.log(num, ++num)
+console.timeEnd('calcular')
+
+console.time('calcular')
+num = 3
+console.log(num++)
+console.log(num)
+console.timeEnd('calcular')
+

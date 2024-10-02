@@ -83,6 +83,7 @@ Para esto tenemos los operadores aritmeticos como:
 - Division (operador de division `/`)
 - potencia (operador de potencia en javascript `**`)
 - Modulo (`%`)
+- Incremento (`++`).
 **Podemos agrupar operaciones con parentesis() las operaciones que este entre**
 #### Cadenas
 El siguiente tipo de dato primitivo es la `cadena` - `string`.
@@ -161,3 +162,8 @@ Los operadores de comparación son los siguientes:
 - Extrictamente igual (===)
 - No es igual a (!=)
   2. **Operadores lógicos**
+    JavaScript soporta tres operadores logicos
+    - and (y) representacion en javascript `&&`,
+    - or (o) representacion en javascript `||`
+    - not (no) representación en js `!`,
+  **Observacion** este es un operador unario que se su funcion es invertir el valor
