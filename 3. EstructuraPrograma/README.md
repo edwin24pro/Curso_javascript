@@ -7,7 +7,7 @@
   - [Bindings (enlaces)](#bindings-enlaces)
   - [El entorno](#el-entorno)
   - [Control de flujos](#control-de-flujos)
-    - [Ejecucion condicional](#ejecucion-condicional)
+    - [Ejecucion Condiconal](#ejecucion-condiconal)
 ## Interaccion basica con el usuario
   Podemos interactuar con el usuario desde JavaScript utilizando un método sencillo que biene implementado en los navegadores.
   El metodo es conocido como `windows` o el metodo de ventana este metodo en realidad es un objeto que contiene o almacena varias funciones entre ellas las de mostrar mensajes o pedir datos al usuario.
@@ -68,5 +68,43 @@ let elNumero = prompt('elige un numero')
 console.log('tu numero es la raiz cuadrada de:'+ elNumero * elNumero)
 //primero le pide al usuario un numero y despues muestra un mensaje y el cuadrado de ese numero
 ```
-### Ejecucion condicional
-Hacemos uso de este control de flujo cuando tenemos distintos caminos o distintos mensajes que deseamos mostrar segun una condicion.
+### Ejecucion Condiconal
+hacemos uso de este control de flujo cuando tenemos distintos caminos o distintos mensajes que deseamo mostrar segun una condición.
+
+**Como Creamos una condicion en js:**
+
+la ejecucion condicional se crea con la palabra reservada (keyword) `if` a continuacion de una `condicion` en llaves `{}` se escribira el cuerpo del codigo que deseo ejecutar en caso la condicion sea `verdad`.
+
+- **condición simple `if`**
+
+```js
+let comparacion=5>4
+if true{
+  prompt("escribe tu nombre")
+}
+```
+- **Condicion de doble evaluacion**
+  Existen cosas en los que tendremos que ejecutar un codigo si es verdad pero tambien si es falso, ejecutando condicional de dos caminos.
+  ```js
+  let edadPersona = 16
+  if (edadPersona >= 18){
+    console.log("eres mayor de edad")
+  }
+  else{
+    console.log("eres menor de edad")
+  }
+  ```
+  - **Condicion multiple `if` `else if`**
+  Se utiliza cuando se tiene que evaluar y devolver variaas opciones o multiples respuestas.
+  ```js
+  let total_compra = 30
+  if (total_compra > 10 && total_compra <100){
+    console.log("tienes un descuento del 10%")
+  }
+  else if (total_compra > 50 && total_compra <500){
+  console.log("tienes un descuento del 20%")
+  }
+  else{
+    console.log("tienes un descuento del 50%")
+  }
+```
