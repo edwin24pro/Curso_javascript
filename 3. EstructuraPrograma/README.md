@@ -8,6 +8,7 @@
   - [El entorno](#el-entorno)
   - [Control de flujos](#control-de-flujos)
     - [Ejecucion Condiconal](#ejecucion-condiconal)
+    - [Bucles](#bucles)
 ## Interaccion basica con el usuario
   Podemos interactuar con el usuario desde JavaScript utilizando un método sencillo que biene implementado en los navegadores.
   El metodo es conocido como `windows` o el metodo de ventana este metodo en realidad es un objeto que contiene o almacena varias funciones entre ellas las de mostrar mensajes o pedir datos al usuario.
@@ -107,4 +108,14 @@ if true{
   else{
     console.log("tienes un descuento del 50%")
   }
-```
+  ```
+### Bucles
+Necesitamos una manera de ejecutar un fragmento de codigo multiples veces, aesta forma de control de flujo se llama `bucle`
+para crear un bucle tenemos dos formas de hacerlo.
+1. `While` -para hacer uso de este bucle primero debemos usar la palabra clave `While` este a su ves como el if devera tener una condicion una `condicion` si esta condiciion  sea falsa el bucle no sera ejecutado, al igual que el if luego de darle la condicion
+2. `for` -Esta seria la forma mas abrevisada de creear un bucle en javascript, en el caso de `while` necesitamos una variable contador luego la condicion y finalmente el aumento del contador, en el caso de `for` estos tres pasos se realizan en una sola linea.
+> [!TIP]
+> `while` se usa cuando no sabemos la cantidad de veces que deseamos ejecutar un codigo, por lo general su finalizacion requeriara de una intervencion externa. `for` se usa cuando sabemos la cantidad de veces que deceamos ejecutar un codigo.
+
+> [!TIP]
+> Para terminar un bucle se hace uso de la palabra reservada `break`.
