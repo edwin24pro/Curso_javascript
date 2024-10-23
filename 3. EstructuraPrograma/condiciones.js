@@ -60,17 +60,17 @@ switch (edadPersona){
   case (edadPersona >= 4):
     console.log("te ganaste un chupetin")
     break
-  case (edadPersona>=9 && edadPersona<=13):
-    console.log("te ganaste una pelota")
-    break
-  case (edadPersona>=14 && edadPersona<=17):
-    console.log("te ganaste un nokia")
-    break
-  case (edadPersona>=18 &&         edadPersona<=100):
-    console.log("te ganaste una buena")
-    break
-  default:
-    console.log("no tienes la edad necesaria")
+  // case (edadPersona>=9 && edadPersona<=13):
+  //   console.log("te ganaste una pelota")
+  //   break
+  // case (edadPersona>=14 && edadPersona<=17):
+  //   console.log("te ganaste un nokia")
+  //   break
+  // case (edadPersona>=18 &&         edadPersona<=100):
+  //   console.log("te ganaste una buena")
+  //   break
+  // default:
+  //   console.log("no tienes la edad necesaria")
 }
 //realizar un program que pida 5 nombres de frutas atravees del navegador y realizara las siguientes evaluaciones en caso que sea 
 //naranja,limon ->"es una fruta ccitrica"
