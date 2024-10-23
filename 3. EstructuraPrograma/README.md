@@ -109,6 +109,21 @@ if true{
     console.log("tienes un descuento del 50%")
   }
   ```
+  - **Condicion multiple `switch`**
+javascript dispone de una opcion para crear estructuras condicionales multiples. `switch` permite crear estructuras mas optimizadas para cubrir un amplio abanico de posibilidades.
+```js
+let edad= Number(promp("ingrese su edad"))
+switch (edad){
+case 4:
+  console.log("tienes 4 años")
+  break
+case 6:
+  console.log("tienes 6 años")
+default:
+  console.log("tienes: ",edad)
+  break
+}
+```
 ### Bucles
 Necesitamos una manera de ejecutar un fragmento de codigo multiples veces, aesta forma de control de flujo se llama `bucle`
 para crear un bucle tenemos dos formas de hacerlo.
