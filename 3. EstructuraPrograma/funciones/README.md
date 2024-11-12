@@ -12,6 +12,8 @@
     - [binding](#binding)
   - [la pila de llamada](#la-pila-de-llamada)
   - [Clouse o funciones de cierre (funciones que retorna funciones)](#clouse-o-funciones-de-cierre-funciones-que-retorna-funciones)
+    - [closure de tipo clase](#closure-de-tipo-clase)
+    - [prototype (Tarea - averiguar y sus ejemplos)](#prototype-tarea---averiguar-y-sus-ejemplos)
 # Funciones
 Las funciones en javascript son `bloques de codigo ejecutable`, a los que podemos pasar parametros y operar con ellos.
 Nos sirve para modular (modularizar) nuestros programas y estructurarlos en bloques que `realicen un atarea concreta`, de esta manera nuestro codigo es mas legible y mantenible.
@@ -177,4 +179,22 @@ retornarValor(2)
 retornarValor(2)()
 ```
 > [!NOTE]
-> Las funciones `closure` son usadas poque pueden mantener el valor de sus ennlaces o variables locales en todo el proceso de la ejecucion de su funcion padre por cada llamada que ese realiza.    
+> Las funciones `closure` son usadas poque pueden mantener el valor de sus ennlaces o variables locales en todo el proceso de la ejecucion de su funcion padre por cada llamada que ese realiza.
+
+### closure de tipo clase
+la funcion
+
+```js
+function contador(){
+{   this.contador=0
+    this.incremento=function()
+    this.contador++}
+{   this.contador=0
+    this.decremento=function()
+    this.contador--}
+}
+```
+> [!WARNING]
+> Elproblema principal de este tipo de funcion, es que cuando creamos un nuevo objeto a partir de la funcion tipo clase, reservara espacion en memoría para toda la clase y funcion esta se replica en memoria.
+
+### prototype (Tarea - averiguar y sus ejemplos)

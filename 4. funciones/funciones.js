@@ -75,18 +75,39 @@
 // }
 // count2.valorContador()
 
-function contador(){
-    this.contador=0
-    this.incremento=function(){
-        this.contador++
-        }
+// function contador(){
+//     this.contador=0
+//     this.incremento=function(){
+//         this.contador++
+//         }
 
-    this.decremento=function(){
-        this.contador--
-        }
+//     this.decremento=function(){
+//         this.contador--
+//         }
+// }
+
+// //realizamos la instancia
+// let count1 = new contador()
+// count1.decremento()
+// console.log(count1.contador())
+function Contador(nombre)
+{
+    this.count=0
+    this.nombre=nombre
+}{
+Contador.prototype={
+    incremento:function(){this.count++},
+    actualizarNombre:function(nuevoNombre){this.nombre=nuevoNombre},
+    decremento:function(){this.count--},
+    mostrarDatos:function(){return `${this.count}, ${this.nombre}`}
+}  
 }
+//instanciamos la funcion y ponemos new
+let contadorUno=new Contador("rosquin")
+console.log(contadorUno.mostrarDatos())
 
-//realizamos la instancia
-let count1 = new contador()
-count1.decremento()
-console.log(count1.contador())
+contadorUno.incremento()
+contadorUno.incremento()
+console.log(contadorUno.mostrarDatos())
+contadorUno.actualizarNombre("rosquin primo")
+console.log(contadorUno.mostrarDatos())
