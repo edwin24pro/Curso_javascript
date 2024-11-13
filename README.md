@@ -18,6 +18,15 @@
   - [FUNCIONES CALLBACKS (TAREA)](#funciones-callbacks-tarea)
 - [CLASES](#clases)
     - [Estructura de una clase en javascript](#estructura-de-una-clase-en-javascript)
+- [Estructura de datos](#estructura-de-datos)
+  - [Lista o array](#lista-o-array)
+    - [creacion](#creacion)
+    - [acceder a un elemento del array](#acceder-a-un-elemento-del-array)
+    - [metodos](#metodos)
+  - [objetos](#objetos)
+    - [creacion](#creacion-1)
+    - [acceder a un elemento del objeto](#acceder-a-un-elemento-del-objeto)
+    - [metododos](#metododos)
 # Funciones
 Las funciones en javascript son `bloques de codigo ejecutable`, a los que podemos pasar parametros y operar con ellos.
 Nos sirve para modular (modularizar) nuestros programas y estructurarlos en bloques que `realicen un atarea concreta`, de esta manera nuestro codigo es mas legible y mantenible.
@@ -279,4 +288,16 @@ Una clase esta separada en tres grandes secciones.
    ```
 
 [imagen]()
-
+# Estructura de datos
+A parte de los tipos de datos primitivpos , javascript nos proporciiona los tipos de datos complejos conocido tambien como datos estructurados o estructura de datos.
+Para poder trabajar con estos tipos de datos deberemos conocer la forma de representarlos en la memoroia de nuestra maquina.
+Javscript trabaja con dos tipos de datos estructurados que trabajan de manera independiente o en conjunto.
+son los siguientes
+## Lista o array
+### creacion
+### acceder a un elemento del array
+### metodos
+## objetos
+### creacion
+### acceder a un elemento del objeto
+### metododos
