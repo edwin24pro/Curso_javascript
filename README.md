@@ -23,6 +23,7 @@
     - [creacion](#creacion)
     - [acceder a un elemento del array](#acceder-a-un-elemento-del-array)
     - [metodos](#metodos)
+    - [Tarea averiguar los metodos mas usados que existen para el trataminento](#tarea-averiguar-los-metodos-mas-usados-que-existen-para-el-trataminento)
   - [objetos](#objetos)
     - [creacion](#creacion-1)
     - [acceder a un elemento del objeto](#acceder-a-un-elemento-del-objeto)
@@ -294,9 +295,46 @@ Para poder trabajar con estos tipos de datos deberemos conocer la forma de repre
 Javscript trabaja con dos tipos de datos estructurados que trabajan de manera independiente o en conjunto.
 son los siguientes
 ## Lista o array
+Las listas en jscript son unn tipo de dato estructurado que nos permite almacenar distintos tipos de datos primitivos separados por comas, cada tipo de dato que se almacene en una lista se le conoce como elemento.
+asi cada elemento estara separado por coma.
 ### creacion
+Primero debemos crear un enlace(una variable) y luego le asignamos la lista que se crea con `corchetes[]`, los elementos estaran dentro de los corchetes separados por comas.
+```js
+//estoy creando una lista de numeros
+let milista=[]
+//creasndo una lista de numeros
+let numeros=[1,2,3,4]
+//creando una lista de nombres
+let nombre=["edwin","jory","adan","nadine"]
+//creando una lista mixta
+let listamixta=["edwin",3, false, []]
+```
 ### acceder a un elemento del array
+Para poder acceder a un elemento del array debemos entender que javascript asignara por cad elemento un indice que nos permitira acceder a un elemento en específico este indice es incremental y comenzada de cero con el primer elemento, el ultimo elemento sera la cantidad de elemntos menos uno.
+```js
+let numeros=[3,5,7,3,2,2]
+//acceder a la voacal "o"
+console.log(num[2])
+```
+Existe otra manera de acceder a los indices de un array,esto se logra recorriendo cada elemento de una listaesto se logra con un bucle `for`.
 ### metodos
+Los métododos son funciones que nos permitencrear, actualizar y eliminar los elementos de una lista, todas las variables que almacenen una lista nos permiten acceder a sus metodos poniendo unb punto despues del nombre de la variable.
+- Metodo para recuperar la longitud de elementos que tiene una lista.
+  ```js
+  let numeros=[1,4,3,6,8]
+  numeros.lenght
+  ```
+- Metodo para agragar un elemento al final de la lista
+  ```js
+  let vocales=["a"]
+  vocales.push("e")
+  ```
+- Metodo para eliminar el ultimo elemento de una lista
+  ```js
+  let vocales=["a", "e"]
+  vocales.pop()
+  ```
+  ### Tarea averiguar los metodos mas usados que existen para el trataminento
 ## objetos
 ### creacion
 ### acceder a un elemento del objeto
