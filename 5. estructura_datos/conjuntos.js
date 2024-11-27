@@ -21,6 +21,27 @@
 
 //crear dos funciones que reciban por parametros una lista de numeros una funcion encontrara devolvera el numero menor de la lista y la otra funcion encontrara y devolvera el numero mayor de la lista, ojo no usar los metodos de min y max
 
+function encontrarMenor(lista) {
+    let menor = lista[0]; // Asignamos el primer elemento como el menor
+    for (let i = 1; i < lista.length; i++) {
+        if (lista[i] < menor) {
+            menor = lista[i]
+        }
+    }
+    return `numero menor ${menor}`
+}
+console.log(encontrarMenor([2,4,6]))
+
+function encontrarMayor(lista) {
+    let mayor = lista[0];
+    for (let i = 1; i < lista.length; i++) {
+        if (lista[i] > mayor) {
+            mayor = lista[i]
+        }
+    }
+    return `numero mayor ${mayor}`
+}
+console.log(encontrarMayor([2,4,6,8]))
 
 //crear una funcion que me permita contar la cantidad de vocales "a" que tengo en una lista
 // let letras=["a","b","a","c","x"]
@@ -40,3 +61,4 @@
 //     }
 
 // contadorA(letras)
+
