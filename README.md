@@ -444,7 +444,34 @@ Ejemplo:
 let arr = [1, 2, 3]
 arr.reverse()  // [3, 2, 1]
 ```
+- **split():** Convierte una cadena de texto a un array, tambien separa una cadena de texto por un metodo.
+  Ejemplo:
+  ```js
+  let string="hola+hola"
+  let cortarString=string.split("+")//[hola,hola]
+  ```
 ## objetos
+Los objetos son tipos de datos estructuraods similares a las listas, para poder acceder a unn elemento de la lista javascript asignaba indices en este caso los objetos como unica difererencia de las listas nosotros podremos asignar el nombre del elemento al cual deseamos acceder a esto se le conoce como `clave:valor`.
+Cada clave:valor es un elemento de un objetosi deseamos crear mas elementos tendremos que separarlos por comas.
 ### creacion
+Para crear un objeto debemos encerar los elementos en llaves `{}` para elemento esatra conformado por su `cave:valor`.
+```js
+let datosJory=["jory","rodriguez",20,"M"]
+let datosJoryObjeto={
+    nombre:"Jory",
+    apellido:"Rodriguez",
+    edad:"20",
+    sexo:"todos los dias",
+    ganados:["el primo", "los chamos", "las enfermeras","minero"]
+    direccion:{
+        tipoCalle:"pasaje",
+        nombreCalle:"querobamba",
+        numeroVivienda:222,
+        numeroCuarto:5
+    }
+    numero:222,
+    accion:()=>{console.log("hola soy Jory")}
+}
+```
 ### acceder a un elemento del objeto
 ### metododos
